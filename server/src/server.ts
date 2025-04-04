@@ -20,6 +20,6 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.listen(PORT, () => {
+app.listen(portT, () => {
   console.log(`API server running on port ${PORT}!`);
 });
